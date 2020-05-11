@@ -10,6 +10,8 @@ window.onload = function () {
         let beCircle = Math.floor(Math.random()*10) + 'px'
         stars[i].style.width = beCircle
         stars[i].style.height = beCircle
+        stars[i].style.animationDelay = `${Math.floor(Math.random()*1000)}ms`
+        stars[i].style.animationDuration = `${500 + Math.floor(Math.random()*10000)}ms`
         stars[i].style.top = Math.floor(Math.random()*1500) + 'px'
         stars[i].style.left = Math.floor(Math.random()*1500) + 'px'
     }
