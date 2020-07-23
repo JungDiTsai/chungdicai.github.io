@@ -1,4 +1,5 @@
 window.onload = function () {
+    // hello
     let stars = document.getElementsByTagName('li')
     let j = 0
     while (j < 100) {
